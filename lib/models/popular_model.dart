@@ -31,6 +31,17 @@ class PopularDietsModel {
 
     popularDiets.add(
         PopularDietsModel(
+          name: 'Salmon Tempura',
+          iconPath: 'assets/icons/salmon-nigiri.svg',
+          level: 'Medium',
+          duration: '25mins',
+          calorie: '210kCal',
+          boxIsSelected: false,
+        )
+    );
+
+    popularDiets.add(
+        PopularDietsModel(
           name: 'Salmon Nigiri',
           iconPath: 'assets/icons/salmon-nigiri.svg',
           level: 'Easy',
@@ -39,6 +50,12 @@ class PopularDietsModel {
           boxIsSelected: false,
         )
     );
+
+
+
+
+
+
 
     return popularDiets;
   }

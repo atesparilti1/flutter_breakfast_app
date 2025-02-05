@@ -22,6 +22,7 @@ class CategoryModel {
       )
     );
 
+
     categories.add(
         CategoryModel(name: "Cake",
             iconPath: 'assets/icons/pancakes.svg',
